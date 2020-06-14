@@ -20,8 +20,7 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 
 - [VirtualBox](https://www.virtualbox.org/)
 
-
-
+コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の
 ```
 $ vagrant init bento/ubuntu-20.04
 ```
@@ -33,7 +32,7 @@ $ vagrant init bento/ubuntu-20.04
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzYyNzg3NywtMTA4NzYwNjg1NywtMT
+eyJoaXN0b3J5IjpbLTkxNzU1NTM0MCwtMTA4NzYwNjg1NywtMT
 A3NDgwMTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkx
 MzQ3LC0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLD
 E0Njk3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
