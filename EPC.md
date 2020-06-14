@@ -16,7 +16,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 - [https://azure.microsoft.com/ja-jp/products/visual-studio-code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
 ## VirtualBox インストール
--[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 ## Chocolatey インストール
 
@@ -40,6 +40,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI3NjA5ODksMTQ2OTczNjMwNywxMT
-c2NTU0OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbMTQ3MjE0NzMyMSwxNDY5NzM2MzA3LDExNz
+Y1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
