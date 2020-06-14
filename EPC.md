@@ -29,11 +29,12 @@ Vagrantfile が生成されるので、下記の行のコメント(#)を削除�
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
 ```
-下記コマンドで仮想環境が起動します。(初回は時間が掛かります)
+下記コマンドで仮想環境が起動/停止ができます。(初回は起動に時間が掛かります)
 ```
 $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
+
 
 
 ## VS Code インストール
@@ -44,9 +45,9 @@ $ vagrant halt   // 停止
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzMxOTU5OCwxNDUxODM2MDQ4LDQ5ND
-U3MTIyMSwtMTA4NzYwNjg1NywtMTA3NDgwMTk5OCwtOTEzOTgz
-MjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC0xMjE0NjE3MDk5LC
-01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3NjU1
-NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbMjA2MTY0ODgwNywtOTM3MzE5NTk4LDE0NT
+E4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMDc0ODAx
+OTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMzOTEzNDcsLT
+EyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTcz
+NjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
 -->
