@@ -13,19 +13,14 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 ## Vagrant インストール
 Vagrant は仮想環境を簡単に構築してくれるツールです。下記からダウンロードしてインストールします。
-
 - [Vagrant](https://www.vagrantup.com/)
-
 Vagrant は裏で VirtualBox を使用するので、下記からダウンロードしてインストールします。
-
 - [VirtualBox](https://www.virtualbox.org/)
-
 コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の初期設定を行います。
 ```
 $ vagrant init bento/ubuntu-20.04
 ```
 Vagrantfile が生成されるので、下記の行のコメント(#)を削除します。
-
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
 ```
@@ -35,12 +30,10 @@ $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
 
-
 ```
 $ vagrant ssh
 vagrant@vagrant$ 
 ```
-
 
 ```
 vagrant@vagrant$ sudo sed -i.bak -e "s%http://us.archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
@@ -56,9 +49,9 @@ vagrant@vagrant$ sudo apt upgrade
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzMDA4MTYyLC05MzczMTk1OTgsMTQ1MT
-gzNjA0OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5
-OTgsLTkxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMT
-IxNDYxNzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2
-MzA3LDExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbLTE1MTA2NDg5NzIsLTkzNzMxOTU5OCwxND
+UxODM2MDQ4LDQ5NDU3MTIyMSwtMTA4NzYwNjg1NywtMTA3NDgw
+MTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC
+0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3
+MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
