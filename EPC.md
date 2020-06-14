@@ -5,7 +5,7 @@
 
 
 # 環境構築
-EPCで使用するSCTPプロトコルはWindowsがサポートしていないので、Windows 上の仮想環境で実行します。
+EPCで使用するSCTPプロトコルは、Windowsがサポートしていないので、Windows 上の仮想環境で実行します。
 
 ## 環境
 
@@ -25,7 +25,7 @@ EPCで使用するSCTPプロトコルはWindowsがサポートしていないの
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjExMTMwOTAsLTEyMTQ2MTcwOTksLT
-UyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0
-OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbLTgxMDM4NTMzLC0xMjE0NjE3MDk5LC01Mj
+E3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3NjU1NDk1
+LDE2OTQyNzQxMTBdfQ==
 -->
