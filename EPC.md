@@ -22,6 +22,10 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 
 
 
+```
+$ vagrant init bento/ubuntu-20.04
+```
+
 ## VS Code インストール
 
 - [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
@@ -29,8 +33,8 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
-kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
-NzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LD
-ExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbMTkwMzYyNzg3NywtMTA4NzYwNjg1NywtMT
+A3NDgwMTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkx
+MzQ3LC0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLD
+E0Njk3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
