@@ -1,7 +1,5 @@
 # なんちゃってEPC自作入門
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
 
 # 環境構築
 
@@ -13,7 +11,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## VS Code インストール
 
-- [https://azure.microsoft.com/ja-jp/products/visual-studio-code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [VS Code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
 ## Vagrant インストール
 
@@ -42,6 +40,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgzMzA2NDksODkzODM3NTcxLDE0Nj
-k3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbLTY2MTk2ODY5Niw4OTM4Mzc1NzEsMTQ2OT
+czNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
 -->
