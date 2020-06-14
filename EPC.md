@@ -18,7 +18,7 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 - [VirtualBox](https://www.virtualbox.org/)
 コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、初期設定を行います。
 ```
-$ vagrant init generic/centos8
+$ vagrant init ubuntu/focal64
 ```
 Vagrantfile が生成されるので、下記の行のコメント(#)を削除します。
 ```
@@ -43,10 +43,10 @@ $ vagrant ssh
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDY1Njk0Myw1OTk2ODY3NiwtMTg1Nz
-g4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0
-OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
-kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
-NzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LD
-ExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbMTE4NjgyMDcxNCwtOTQ0NjU2OTQzLDU5OT
+Y4Njc2LC0xODU3ODg0OTAsLTE1MTA2NDg5NzIsLTkzNzMxOTU5
+OCwxNDUxODM2MDQ4LDQ5NDU3MTIyMSwtMTA4NzYwNjg1NywtMT
+A3NDgwMTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkx
+MzQ3LC0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLD
+E0Njk3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
