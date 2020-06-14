@@ -11,7 +11,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## VS Code インストール
 
-- [VS Code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+- [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
 ## Vagrant インストール
 
@@ -40,6 +40,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTk2ODY5Niw4OTM4Mzc1NzEsMTQ2OT
+eyJoaXN0b3J5IjpbMTk3ODg5OTY2Myw4OTM4Mzc1NzEsMTQ2OT
 czNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
 -->
