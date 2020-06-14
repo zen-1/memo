@@ -34,8 +34,10 @@ config.vm.network "private_network", ip: "192.168.33.10"
 $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
-
-
+```
+$ vagrant ssh
+vagrant
+```
 
 ## VS Code インストール
 
@@ -45,7 +47,7 @@ $ vagrant halt   // 停止
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTY0ODgwNywtOTM3MzE5NTk4LDE0NT
+eyJoaXN0b3J5IjpbMTgxOTA3NTUxOSwtOTM3MzE5NTk4LDE0NT
 E4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMDc0ODAx
 OTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMzOTEzNDcsLT
 EyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTcz
