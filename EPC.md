@@ -36,7 +36,7 @@ vagrant@vagrant$
 ```
 
 ```
-vagrant@vagrant$ sudo sed -i.bak -e "s%http://us.archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
+vagrant@vagrant$ sudo sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
 vagrant@vagrant$ sudo apt update
 vagrant@vagrant$ sudo apt upgrade
 ```
@@ -49,9 +49,10 @@ vagrant@vagrant$ sudo apt upgrade
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA2NDg5NzIsLTkzNzMxOTU5OCwxND
-UxODM2MDQ4LDQ5NDU3MTIyMSwtMTA4NzYwNjg1NywtMTA3NDgw
-MTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC
-0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3
-MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbLTE4NTc4ODQ5MCwtMTUxMDY0ODk3MiwtOT
+M3MzE5NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2
+ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3Ny
+wtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4
+Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF
+19
 -->
