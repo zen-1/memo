@@ -17,8 +17,10 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## Vagrant インストール
 
-- [https://www.vagrantup.com/](https://www.vagrantup.com/)
--[https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html)
+- [vagrant](https://www.vagrantup.com/)
+
+- [vagrant-vmware-utility.html](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html)
+
 
 # SCTP
 
@@ -40,6 +42,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzMjgzNTM0LDg5MzgzNzU3MSwxNDY5Nz
-M2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbLTIwNTgzMzA2NDksODkzODM3NTcxLDE0Nj
+k3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
