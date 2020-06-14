@@ -34,9 +34,18 @@ config.vm.network "private_network", ip: "192.168.33.10"
 $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
+
+
 ```
 $ vagrant ssh
-vagrant
+vagrant@vagrant$ 
+```
+
+
+```
+vagrant@vagrant$ sudo sed -i.bak -e "s%http://us.archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
+vagrant@vagrant$ sudo apt update
+vagrant@vagrant$ sudo apt upgrade
 ```
 
 ## VS Code インストール
@@ -47,9 +56,9 @@ vagrant
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTA3NTUxOSwtOTM3MzE5NTk4LDE0NT
-E4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMDc0ODAx
-OTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMzOTEzNDcsLT
-EyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTcz
-NjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbOTQzMDA4MTYyLC05MzczMTk1OTgsMTQ1MT
+gzNjA0OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5
+OTgsLTkxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMT
+IxNDYxNzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2
+MzA3LDExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
