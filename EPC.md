@@ -18,7 +18,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 ## VirtualBox インストール
 - [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-## Chocolatey インストール
+## Vagrant インストール
 
 - [https://www.vagrantup.com/](https://www.vagrantup.com/)
 
@@ -42,6 +42,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQ1MTM2NTMsMTQ2OTczNjMwNywxMT
-c2NTU0OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3Nj
+U1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
