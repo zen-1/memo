@@ -15,12 +15,10 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 - [https://azure.microsoft.com/ja-jp/products/visual-studio-code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
-## VirtualBox インストール
-- [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
-
 ## Vagrant インストール
 
 - [https://www.vagrantup.com/](https://www.vagrantup.com/)
+-[https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html)
 
 # SCTP
 
@@ -42,6 +40,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3Nj
-U1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbOTYzMjgzNTM0LDg5MzgzNzU3MSwxNDY5Nz
+M2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
