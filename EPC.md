@@ -15,6 +15,8 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 - [vagrant](https://www.vagrantup.com/)
 
+[https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html](https://www.vmware.com/jp/products/workstation-player/workstation-player-evaluation.html)
+
 - [vagrant-vmware-utility.html](https://www.vagrantup.com/docs/providers/vmware/vagrant-vmware-utility.html)
 
 ## VS Code インストール
@@ -24,7 +26,7 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjMzMDQ3NywtODMzOTEzNDcsLTEyMT
-Q2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTczNjMw
-NywxMTc2NTU0OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbMTk3NjE4NzM2MiwtNTAyMzMwNDc3LC04Mz
+M5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3
+MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
