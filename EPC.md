@@ -12,11 +12,14 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 - Windows 10 64bit
 
 ## Vagrant インストール
-
+Vagrant は仮想環境を簡単に構築してくれるツールです。下記からダウンロードしてインストールします。
 
 - [Vagrant](https://www.vagrantup.com/)
 
+Vagrant は裏で VirtualBox を使用するので、下記からダウンロードしてインストールします。
+
 - [VirtualBox](https://www.virtualbox.org/)
+
 
 
 ## VS Code インストール
@@ -26,8 +29,8 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDQ5ODkxMiwtMTA3NDgwMTk5OCwtOT
-EzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC0xMjE0NjE3
-MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMT
-E3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
+kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
+NzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LD
+ExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
