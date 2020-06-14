@@ -25,10 +25,11 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
 
-
+- v142 ビルドツール(14.26)のC++/CLIサポート
+- Window
 
 - https://www.co-conv.jp/en/product/sctpDrv/20081224/sctpDrv-src-1-0-0-0.zip
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzgwMDU4MSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbMzQ5MzE3MjU4LDE2OTQyNzQxMTBdfQ==
 -->
