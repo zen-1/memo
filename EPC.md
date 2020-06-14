@@ -16,7 +16,7 @@ Vagrant は仮想環境を簡単に構築してくれるツールです。下記
 - [Vagrant](https://www.vagrantup.com/)
 Vagrant は裏で VirtualBox を使用するので、下記からダウンロードしてインストールします。
 - [VirtualBox](https://www.virtualbox.org/)
-コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の初期設定を行います。
+コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、初期設定を行います。
 ```
 $ vagrant init generic/centos8
 ```
@@ -49,7 +49,7 @@ vagrant@vagrant$ sudo apt upgrade
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDYyMzg3MSwtMTg1Nzg4NDkwLC0xNT
+eyJoaXN0b3J5IjpbMTA1OTg3Njg3NCwtMTg1Nzg4NDkwLC0xNT
 EwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEy
 MjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MS
 wtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIx
