@@ -29,12 +29,13 @@ StackEdit stores your files in your browser, which means all your files are auto
 - v142 ビルドツール(14.26)のC++/CLIサポート
 - Windows 10 SDK (10.0.17763.0)
 
-
+[https://docs.microsoft.com/ja-jp/windows-hardware/drivers/download-the-wdk](https://docs.microsoft.com/ja-jp/windows-hardware/drivers/download-the-wdk)
 
 - https://www.co-conv.jp/en/product/sctpDrv/20081224/sctpDrv-src-1-0-0-0.zip
 - 
 ## Windows SCTPドライバのインストール
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbMTMwNTY0MjAzOCwxMTc2NTU0OTUsMTY5ND
+I3NDExMF19
 -->
