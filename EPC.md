@@ -13,6 +13,7 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 ## Vagrant インストール
 
+
 - [Vagrant](https://www.vagrantup.com/)
 
 - [VirtualBox](https://www.virtualbox.org/)
@@ -25,8 +26,8 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNT
-AyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3
-Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNj
-k0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbMTE1NDQ5ODkxMiwtMTA3NDgwMTk5OCwtOT
+EzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC0xMjE0NjE3
+MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMT
+E3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
