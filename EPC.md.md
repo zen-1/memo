@@ -7,9 +7,11 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
+＃＃
+
 ## Python インストール
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzA5MzUzMl19
+eyJoaXN0b3J5IjpbLTE1MDI1NDY0NzIsMTExMzA5MzUzMl19
 -->
