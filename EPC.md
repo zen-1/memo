@@ -1,5 +1,5 @@
 # なんちゃってEPC自作入門
-
+Pythonの勉強ついでに
 
 ![enter image description here](https://user-images.githubusercontent.com/1900544/84593371-e17ae600-ae86-11ea-872d-4aaf0fe4bfa1.png)
 
@@ -24,7 +24,7 @@ EPCで使用するSCTPプロトコルは、Windowsがサポートしていない
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzkxMzQ3LC0xMjE0NjE3MDk5LC01Mj
-E3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3NjU1NDk1
-LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbLTQ5MzQ4NTksLTgzMzkxMzQ3LC0xMjE0Nj
+E3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcs
+MTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
