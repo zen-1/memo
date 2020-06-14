@@ -21,7 +21,8 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 # SCTP
 
-## Windows SCTPドライバのコンパイル
+## Windows 10 用 SCTP ドライバのコンパイル
+
 
 - https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
 
@@ -35,5 +36,5 @@ StackEdit stores your files in your browser, which means all your files are auto
 ## Windows SCTPドライバのインストール
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzQxNzE5MCwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
 -->
