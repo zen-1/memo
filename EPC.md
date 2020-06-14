@@ -29,7 +29,7 @@ Vagrantfile が生成されるので、下記の行のコメント(#)を削除�
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
 ```
-(初回は時間が掛かります)
+下記こ(初回は時間が掛かります)
 
 ```
 $ vagrant up
@@ -43,9 +43,9 @@ $ vagrant up
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTg0NDEzNSw0OTQ1NzEyMjEsLTEwOD
-c2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMw
-NDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LD
-g5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0
-MTEwXX0=
+eyJoaXN0b3J5IjpbLTIwNjQ1MjYzMjMsNDk0NTcxMjIxLC0xMD
+g3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMz
+MDQ3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NS
+w4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3
+NDExMF19
 -->
