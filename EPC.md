@@ -34,12 +34,13 @@ config.vm.network "private_network", ip: "192.168.33.10"
 
 - [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
-## VS Code インストール
+## VS Code Remote SSH 
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMD
-c0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMzOTEz
-NDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMT
-Q2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
+eyJoaXN0b3J5IjpbMTczNTQ0MzY1NCw0OTQ1NzEyMjEsLTEwOD
+c2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMw
+NDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LD
+g5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0
+MTEwXX0=
 -->
