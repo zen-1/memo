@@ -7,14 +7,20 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
-## VS Code インストール
+## 環境
 
+- Windows 10 64bit
+
+## VS Code インストール
 
 - [https://azure.microsoft.com/ja-jp/products/visual-studio-code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
 ## Python インストール
 
 ## Python インストール
+
+# SCTP
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTUwNTI4OCwxMTEzMDkzNTMyXX0=
+eyJoaXN0b3J5IjpbNjM2NTQxODU4LDExMTMwOTM1MzJdfQ==
 -->
