@@ -32,13 +32,7 @@ $ vagrant halt   // 停止
 
 ```
 $ vagrant ssh
-vagrant@vagrant$ 
-```
-
-```
-vagrant@vagrant$ sudo sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.iij.ad.jp/pub/linux/ubuntu/archive/%g" /etc/apt/sources.list
-vagrant@vagrant$ sudo apt update
-vagrant@vagrant$ sudo apt upgrade
+vagrant@vagrant$ sudo dnf update
 ```
 
 ## VS Code インストール
@@ -49,10 +43,10 @@ vagrant@vagrant$ sudo apt upgrade
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTg3Njg3NCwtMTg1Nzg4NDkwLC0xNT
-EwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEy
-MjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MS
-wtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIx
-NzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NS
-wxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbNTk5Njg2NzYsLTE4NTc4ODQ5MCwtMTUxMD
+Y0ODk3MiwtOTM3MzE5NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIx
+LC0xMDg3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLT
+UwMjMzMDQ3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcy
+NzY4NSw4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMT
+Y5NDI3NDExMF19
 -->
