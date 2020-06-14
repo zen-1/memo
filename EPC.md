@@ -29,7 +29,7 @@ config.vm.network "private_network", ip: "192.168.33.10"
 $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
-v
+vuname 
 ```
 $ vagrant ssh
 [vagrant@centos8 ~]$ sudo dnf update
@@ -43,7 +43,7 @@ $ vagrant ssh
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Mzc3NDk2MSw1OTk2ODY3NiwtMTg1Nz
+eyJoaXN0b3J5IjpbLTk0NDY1Njk0Myw1OTk2ODY3NiwtMTg1Nz
 g4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0
 OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
 kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
