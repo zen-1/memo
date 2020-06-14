@@ -18,7 +18,7 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 - [VirtualBox](https://www.virtualbox.org/)
 コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の初期設定を行います。
 ```
-$ vagrant init bento/ubuntu-20.04
+$ vagrant init generic/centos8
 ```
 Vagrantfile が生成されるので、下記の行のコメント(#)を削除します。
 ```
@@ -49,10 +49,10 @@ vagrant@vagrant$ sudo apt upgrade
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc4ODQ5MCwtMTUxMDY0ODk3MiwtOT
-M3MzE5NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2
-ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3Ny
-wtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4
-Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF
-19
+eyJoaXN0b3J5IjpbLTk3NDYyMzg3MSwtMTg1Nzg4NDkwLC0xNT
+EwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEy
+MjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MS
+wtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIx
+NzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NS
+wxNjk0Mjc0MTEwXX0=
 -->
