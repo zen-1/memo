@@ -35,9 +35,10 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 - https://www.co-conv.jp/en/product/sctpDrv/20081224/sctpDrv-src-1-0-0-0.zip
 - 
-## Windows SCTPドライバのインストール
+## Windows 10 用 SCTPドライバのインストール
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzUwNDMwLDExNzY1NTQ5NSwxNjk0Mj
-c0MTEwXX0=
+eyJoaXN0b3J5IjpbMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5ND
+I3NDExMF19
 -->
