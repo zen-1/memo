@@ -9,9 +9,12 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## VS Code インストール
 
+
+- [https://azure.microsoft.com/ja-jp/products/visual-studio-code/](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
+
 ## Python インストール
 
 ## Python インストール
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNDc3MDUyLDExMTMwOTM1MzJdfQ==
+eyJoaXN0b3J5IjpbMTAzNTUwNTI4OCwxMTEzMDkzNTMyXX0=
 -->
