@@ -24,10 +24,15 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 ```
 $ vagrant init bento/ubuntu-20.04
 ```
-Vagrantfile が生成されるので、下記の行のコメント()
+Vagrantfile が生成されるので、下記の行のコメント(#)を削除します。
 
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
+```
+(初回は時間が掛かります)
+
+```
+$ vagrant up
 ```
 
 ## VS Code インストール
@@ -38,9 +43,9 @@ config.vm.network "private_network", ip: "192.168.33.10"
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzExMTIzMTEsNDk0NTcxMjIxLC0xMD
-g3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMz
-MDQ3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NS
-w4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3
-NDExMF19
+eyJoaXN0b3J5IjpbMTU4OTg0NDEzNSw0OTQ1NzEyMjEsLTEwOD
+c2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMw
+NDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LD
+g5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0
+MTEwXX0=
 -->
