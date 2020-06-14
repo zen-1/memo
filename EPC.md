@@ -20,11 +20,11 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 
 - [VirtualBox](https://www.virtualbox.org/)
 
-コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の
+コマンドプロンプトを起動し、任意のフォルダで下記のコマンドを実行し、Ubuntu 20.04 の初期設定を行います。
 ```
 $ vagrant init bento/ubuntu-20.04
 ```
-
+Vagrantfile が生成されるので、下記の行のコメント()
 
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
@@ -38,9 +38,9 @@ config.vm.network "private_network", ip: "192.168.33.10"
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTQ0MzY1NCw0OTQ1NzEyMjEsLTEwOD
-c2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMw
-NDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LD
-g5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0
-MTEwXX0=
+eyJoaXN0b3J5IjpbLTEyMzExMTIzMTEsNDk0NTcxMjIxLC0xMD
+g3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMz
+MDQ3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NS
+w4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3
+NDExMF19
 -->
