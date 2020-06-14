@@ -31,7 +31,8 @@ config.vm.network "private_network", ip: "192.168.33.10"
 ```
 下記コマンドで仮想環境が起動します。(初回は時間が掛かります)
 ```
-$ vagrant up
+$ vagrant up     // 起動
+$ vagrant halt   // 停止
 ```
 
 
@@ -43,9 +44,9 @@ $ vagrant up
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwOD
-c2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMw
-NDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LD
-g5MzgzNzU3MSwxNDY5NzM2MzA3LDExNzY1NTQ5NSwxNjk0Mjc0
-MTEwXX0=
+eyJoaXN0b3J5IjpbLTkzNzMxOTU5OCwxNDUxODM2MDQ4LDQ5ND
+U3MTIyMSwtMTA4NzYwNjg1NywtMTA3NDgwMTk5OCwtOTEzOTgz
+MjYxLC01MDIzMzA0NzcsLTgzMzkxMzQ3LC0xMjE0NjE3MDk5LC
+01MjE3Mjc2ODUsODkzODM3NTcxLDE0Njk3MzYzMDcsMTE3NjU1
+NDk1LDE2OTQyNzQxMTBdfQ==
 -->
