@@ -25,15 +25,21 @@ Vagrant は裏で VirtualBox を使用するので、下記からダウンロー
 $ vagrant init bento/ubuntu-20.04
 ```
 
+
+```
+config.vm.network "private_network", ip: "192.168.33.10"
+```
+
 ## VS Code インストール
 
 - [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
+## VS Code インストール
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzU1NTM0MCwtMTA4NzYwNjg1NywtMT
-A3NDgwMTk5OCwtOTEzOTgzMjYxLC01MDIzMzA0NzcsLTgzMzkx
-MzQ3LC0xMjE0NjE3MDk5LC01MjE3Mjc2ODUsODkzODM3NTcxLD
-E0Njk3MzYzMDcsMTE3NjU1NDk1LDE2OTQyNzQxMTBdfQ==
+eyJoaXN0b3J5IjpbNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMD
+c0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMzOTEz
+NDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NSw4OTM4Mzc1NzEsMT
+Q2OTczNjMwNywxMTc2NTU0OTUsMTY5NDI3NDExMF19
 -->
