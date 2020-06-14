@@ -29,10 +29,10 @@ config.vm.network "private_network", ip: "192.168.33.10"
 $ vagrant up     // 起動
 $ vagrant halt   // 停止
 ```
-
+v
 ```
 $ vagrant ssh
-vagrant@vagrant$ sudo dnf update
+vagrant@centos8 $ sudo dnf update
 ```
 
 ## VS Code インストール
@@ -43,10 +43,10 @@ vagrant@vagrant$ sudo dnf update
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5Njg2NzYsLTE4NTc4ODQ5MCwtMTUxMD
-Y0ODk3MiwtOTM3MzE5NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIx
-LC0xMDg3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLT
-UwMjMzMDQ3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcy
-NzY4NSw4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0OTUsMT
-Y5NDI3NDExMF19
+eyJoaXN0b3J5IjpbLTUzOTk4MTMyOSw1OTk2ODY3NiwtMTg1Nz
+g4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0
+OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
+kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
+NzA5OSwtNTIxNzI3Njg1LDg5MzgzNzU3MSwxNDY5NzM2MzA3LD
+ExNzY1NTQ5NSwxNjk0Mjc0MTEwXX0=
 -->
