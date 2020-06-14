@@ -5,8 +5,7 @@
 
 
 # 環境構築
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+EPCで使用するSCTPプロトコルはWindowsがサポートしていないので、Windows 上の仮想環境で実行します。
 
 ## 環境
 
@@ -26,7 +25,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTI5ODY1NzksLTEyMTQ2MTcwOTksLT
+eyJoaXN0b3J5IjpbLTIwNjExMTMwOTAsLTEyMTQ2MTcwOTksLT
 UyMTcyNzY4NSw4OTM4Mzc1NzEsMTQ2OTczNjMwNywxMTc2NTU0
 OTUsMTY5NDI3NDExMF19
 -->
