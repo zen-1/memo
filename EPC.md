@@ -32,7 +32,7 @@ $ vagrant halt   // 停止
 v
 ```
 $ vagrant ssh
-vagrant@centos8 $ sudo dnf update
+[vagrant@centos8 ~]$ sudo dnf update
 ```
 
 ## VS Code インストール
@@ -43,7 +43,7 @@ vagrant@centos8 $ sudo dnf update
 
 # SCTP
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTk4MTMyOSw1OTk2ODY3NiwtMTg1Nz
+eyJoaXN0b3J5IjpbMTk1Mzc3NDk2MSw1OTk2ODY3NiwtMTg1Nz
 g4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0
 OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLT
 kxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYx
