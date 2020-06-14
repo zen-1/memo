@@ -17,13 +17,14 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## Python インストール
 
-## Python インストール
+## C インストール
 
 # SCTP
 
 ## aa
 
-- https://www.co-conv.jp/en/product/sctpDrv/20081224/sctpDrv-1-0-0-0.msi
+- https://www.co-conv.jp/en/product/sctpDrv/20081224/sctpDrv-src-1-0-0-0.zip
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzNTc3MjU0XX0=
+eyJoaXN0b3J5IjpbMTAzNTE4OTU0NF19
 -->
