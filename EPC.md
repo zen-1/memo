@@ -20,6 +20,8 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## Chocolatey インストール
 
+- [https://www.vagrantup.com/](https://www.vagrantup.com/)
+
 # SCTP
 
 ## Windows 10 用 SCTP ドライバのコンパイル
@@ -40,6 +42,6 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MjE0NzMyMSwxNDY5NzM2MzA3LDExNz
-Y1NTQ5NSwxNjk0Mjc0MTEwXX0=
+eyJoaXN0b3J5IjpbLTExODQ1MTM2NTMsMTQ2OTczNjMwNywxMT
+c2NTU0OTUsMTY5NDI3NDExMF19
 -->
