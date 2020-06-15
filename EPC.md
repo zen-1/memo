@@ -49,13 +49,15 @@ $ vagrant ssh
 ## asn1c
 
 ```
-$ sudo apt install automake libtool bison flex git
+$ sudo apt install automake libtool bison flex git unzip
 $ cd ~/epc
 $ wget https://github.com/mouse07410/asn1c/archive/vlm_master.zip
+$ unzip vlm_master.zip
+$ mv asn1c-vm
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjYxODc5NSwxODc1NjY5Mjg0LC0xOT
+eyJoaXN0b3J5IjpbMTc5ODIwMjIyMSwxODc1NjY5Mjg0LC0xOT
 UxMjgxNTUwLDExODY4MjA3MTQsLTk0NDY1Njk0Myw1OTk2ODY3
 NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMT
 Q1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4
