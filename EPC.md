@@ -61,11 +61,11 @@ $ ./configure
 $ make
 $ sudo make install
 $ cd ..
-
+$ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzgwODA1MiwxODc1NjY5Mjg0LC0xOT
+eyJoaXN0b3J5IjpbMTE2MTgyMzc5NCwxODc1NjY5Mjg0LC0xOT
 UxMjgxNTUwLDExODY4MjA3MTQsLTk0NDY1Njk0Myw1OTk2ODY3
 NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMT
 Q1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4
