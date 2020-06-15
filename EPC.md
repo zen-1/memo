@@ -48,9 +48,12 @@ $ vagrant ssh
 
 ## asn1c
 
-$ 
+```
+$ sudo apt-get install automake libtool bison flex git
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwMzU0Mzg2LC0xOTUxMjgxNTUwLDExOD
+eyJoaXN0b3J5IjpbLTEzMzEyMjY0LC0xOTUxMjgxNTUwLDExOD
 Y4MjA3MTQsLTk0NDY1Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkw
 LC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OT
 Q1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4
