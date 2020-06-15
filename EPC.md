@@ -50,10 +50,12 @@ $ vagrant ssh
 
 ```
 $ sudo apt install automake libtool bison flex git
+$ cd ~/epc
+$ git clone https://github.com/mouse07410/asn1c.git
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTUxMjMwMywtMTk1MTI4MTU1MCwxMT
+eyJoaXN0b3J5IjpbMTg3NTY2OTI4NCwtMTk1MTI4MTU1MCwxMT
 g2ODIwNzE0LC05NDQ2NTY5NDMsNTk5Njg2NzYsLTE4NTc4ODQ5
 MCwtMTUxMDY0ODk3MiwtOTM3MzE5NTk4LDE0NTE4MzYwNDgsND
 k0NTcxMjIxLC0xMDg3NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5
