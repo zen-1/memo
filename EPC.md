@@ -45,7 +45,7 @@ $ vagrant ssh
 # SCTP
 
 ## pysctp
-
+PythonからSCTPを扱うライブラリとして"pysctp"があるので
 ```
 $ pip install pysctp
 ```
@@ -75,7 +75,7 @@ $ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODkxMDE2NCwtMTgxNjYwNTM5MCwxOD
+eyJoaXN0b3J5IjpbLTk2NTk4ODE4OSwtMTgxNjYwNTM5MCwxOD
 c1NjY5Mjg0LC0xOTUxMjgxNTUwLDExODY4MjA3MTQsLTk0NDY1
 Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4OTcyLC
 05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwODc2
