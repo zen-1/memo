@@ -45,9 +45,10 @@ $ vagrant ssh
 # SCTP
 
 ## pysctp
-PythonからSCTPを扱うライブラリとして"pysctp"があるので
+PythonからSCTPを扱うライブラリとして"pysctp"があるので、
 
 - [https://github.com/P1sec/pysctp](https://github.com/P1sec/pysctp)
+下記のコマンドで pysctp をインストールします。
 ```
 $ pip install pysctp
 ```
@@ -77,11 +78,11 @@ $ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzE4MjU0NywtMTgxNjYwNTM5MCwxOD
-c1NjY5Mjg0LC0xOTUxMjgxNTUwLDExODY4MjA3MTQsLTk0NDY1
-Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4OTcyLC
-05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwODc2
-MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMwND
-c3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LDg5
-MzgzNzU3MV19
+eyJoaXN0b3J5IjpbLTIxNDIzMjg0NzMsLTE4MTY2MDUzOTAsMT
+g3NTY2OTI4NCwtMTk1MTI4MTU1MCwxMTg2ODIwNzE0LC05NDQ2
+NTY5NDMsNTk5Njg2NzYsLTE4NTc4ODQ5MCwtMTUxMDY0ODk3Mi
+wtOTM3MzE5NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIxLC0xMDg3
+NjA2ODU3LC0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMD
+Q3NywtODMzOTEzNDcsLTEyMTQ2MTcwOTksLTUyMTcyNzY4NSw4
+OTM4Mzc1NzFdfQ==
 -->
