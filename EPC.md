@@ -40,6 +40,10 @@ $ vagrant ssh
 
 - [VS Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
+![1](https://user-images.githubusercontent.com/1900544/85050069-80c61300-b1d0-11ea-8c3f-64c74cb5ebc2.PNG)
+
+![2](https://user-images.githubusercontent.com/1900544/85050144-a4895900-b1d0-11ea-8b6f-1ac06c448a2f.PNG)
+
 ## VS Code Remote SSH 
 
 # SCTP
@@ -79,11 +83,11 @@ $ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODA3OTQ5NSwtMTgxNjYwNTM5MCwxOD
-c1NjY5Mjg0LC0xOTUxMjgxNTUwLDExODY4MjA3MTQsLTk0NDY1
-Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4OTcyLC
-05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEyMjEsLTEwODc2
-MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAyMzMwND
-c3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwtNTIxNzI3Njg1LDg5
-MzgzNzU3MV19
+eyJoaXN0b3J5IjpbLTIwODU2NjcwNzAsLTQwODA3OTQ5NSwtMT
+gxNjYwNTM5MCwxODc1NjY5Mjg0LC0xOTUxMjgxNTUwLDExODY4
+MjA3MTQsLTk0NDY1Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkwLC
+0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1
+NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4Mz
+I2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIxNDYxNzA5OSwt
+NTIxNzI3Njg1XX0=
 -->
