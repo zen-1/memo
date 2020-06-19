@@ -70,7 +70,7 @@ $ pip install pysctp
 
 ```
 $ sudo apt install automake libtool bison flex git unzip make
-$ cd ~/epc
+$ cd ~
 $ wget https://github.com/mouse07410/asn1c/archive/vlm_master.zip
 $ unzip vlm_master.zip
 $ mv asn1c-vlm_master asn1c
@@ -85,11 +85,11 @@ $ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDA3MDIyMyw2NzQyMjYyMTMsLTQwOD
-A3OTQ5NSwtMTgxNjYwNTM5MCwxODc1NjY5Mjg0LC0xOTUxMjgx
-NTUwLDExODY4MjA3MTQsLTk0NDY1Njk0Myw1OTk2ODY3NiwtMT
-g1Nzg4NDkwLC0xNTEwNjQ4OTcyLC05MzczMTk1OTgsMTQ1MTgz
-NjA0OCw0OTQ1NzEyMjEsLTEwODc2MDY4NTcsLTEwNzQ4MDE5OT
-gsLTkxMzk4MzI2MSwtNTAyMzMwNDc3LC04MzM5MTM0NywtMTIx
-NDYxNzA5OV19
+eyJoaXN0b3J5IjpbNzYwNTk2ODkwLC02MDAwNzAyMjMsNjc0Mj
+I2MjEzLC00MDgwNzk0OTUsLTE4MTY2MDUzOTAsMTg3NTY2OTI4
+NCwtMTk1MTI4MTU1MCwxMTg2ODIwNzE0LC05NDQ2NTY5NDMsNT
+k5Njg2NzYsLTE4NTc4ODQ5MCwtMTUxMDY0ODk3MiwtOTM3MzE5
+NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC
+0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMz
+OTEzNDddfQ==
 -->
