@@ -73,8 +73,6 @@ $ sudo apt install automake libtool bison flex git unzip make
 $ cd ~
 $ wget https://github.com/mouse07410/asn1c/archive/vlm_master.zip
 $ unzip vlm_master.zip
-$ mv asn1c-vlm_master asn1c
-$ rm vlm_master.zip
 $ cd asn1c
 $ test -f configure || autoreconf -iv
 $ ./configure
@@ -85,11 +83,11 @@ $ rm -rf asn1c
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNTk2ODkwLC02MDAwNzAyMjMsNjc0Mj
-I2MjEzLC00MDgwNzk0OTUsLTE4MTY2MDUzOTAsMTg3NTY2OTI4
-NCwtMTk1MTI4MTU1MCwxMTg2ODIwNzE0LC05NDQ2NTY5NDMsNT
-k5Njg2NzYsLTE4NTc4ODQ5MCwtMTUxMDY0ODk3MiwtOTM3MzE5
-NTk4LDE0NTE4MzYwNDgsNDk0NTcxMjIxLC0xMDg3NjA2ODU3LC
-0xMDc0ODAxOTk4LC05MTM5ODMyNjEsLTUwMjMzMDQ3NywtODMz
-OTEzNDddfQ==
+eyJoaXN0b3J5IjpbLTYxOTEzNDMzMCw3NjA1OTY4OTAsLTYwMD
+A3MDIyMyw2NzQyMjYyMTMsLTQwODA3OTQ5NSwtMTgxNjYwNTM5
+MCwxODc1NjY5Mjg0LC0xOTUxMjgxNTUwLDExODY4MjA3MTQsLT
+k0NDY1Njk0Myw1OTk2ODY3NiwtMTg1Nzg4NDkwLC0xNTEwNjQ4
+OTcyLC05MzczMTk1OTgsMTQ1MTgzNjA0OCw0OTQ1NzEyMjEsLT
+EwODc2MDY4NTcsLTEwNzQ4MDE5OTgsLTkxMzk4MzI2MSwtNTAy
+MzMwNDc3XX0=
 -->
