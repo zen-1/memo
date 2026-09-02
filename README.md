@@ -1,20 +1,30 @@
 # dify 環境移行メモ
 
-「検証エージェント」アプリ + ナレッジ2件を別マシンへ複製するための一式。
+「検証エージェント」アプリ + ナレッジ2件を別マシンへ複製するための一式（`main` ブランチ）。
 
-- **Dify バージョン**: 1.16.0（移行先も必ず一致させる）
+- **Dify バージョン**: 1.16.0
 - **ベクトルDB**: Weaviate 1.27.0
 - **埋め込み**: Ollama `bge-m3`（`http://host.docker.internal:11434`）
 - **特殊対応**: sandbox Code ノードで `tshark` を使うためカスタムイメージ + seccomp 緩和
 
-移行対象:
+## 構成
 
-| レイヤ | 中身 | このリポジトリ |
-|---|---|---|
-| データ | DB(アプリ/ナレッジ/チャンク)・アップロードファイル・ベクトル・プラグイン | `data/dify_bundle_*.tar.gz` |
-| 設定 | override compose・カスタム Dockerfile・変更済み設定 | `config/` |
-| 環境変数 | `.env`（標準の .env.example と同一） | `.env.template` |
-| イメージ | 公開分は pull／`dify-sandbox-tshark` のみ自前 | 同梱せず（下記手順で build） |
+```
+docker/               動作可能な docker/ 一式（Dify 本体 clone 不要）
+  ├── docker-compose.yaml, .env.example, nginx/, ssrf_proxy/ ...  （1.16.0 相当）
+  ├── docker-compose.override.yaml       tshark 用の image 差し替え + seccomp 緩和 + host-gateway
+  ├── ssrf_proxy/squid.conf.template     変更済み（cache deny all）
+  ├── sandbox-tshark/Dockerfile          dify-sandbox に tshark を入れるカスタムイメージ
+  └── dify-bundle.sh                     データ/イメージの export・import
+data/
+  └── dify_bundle.tar.gz                 DB・アップロード・ベクトル・プラグイン・.env
+                                         + volumes/sandbox（変更済み config.yaml / scapy,pycrate）
+                                         lean で ~20MB
+dify-restore.sh                          移行先での一括セットアップ
+```
+
+> `volumes/`（DB・アップロード・ベクトル・プラグイン・sandbox 設定）と実 `.env` は
+> data バンドルから復元されるのでリポジトリには入れていない。
 
 ---
 
@@ -23,93 +33,63 @@
 ### 0. 前提
 
 - Docker / Docker Compose
-- Dify 本体 checkout: `git clone https://github.com/langgenius/dify && cd dify && git checkout 1.16.0`（`docker/` 一式が要る）
-- Ollama が動いていて `bge-m3` が pull 済み、移行先から到達可能なこと
+- Ollama 起動済み、`bge-m3` pull 済み、移行先から到達可能
 
-### かんたん手順（推奨）
-
-`dify-restore.sh` が 2〜4 を一括でやります。
+### 1. 取得して復元
 
 ```bash
 git clone -b main https://github.com/zen-1/memo.git dify-memo
 cd dify-memo
-./dify-restore.sh --dify-docker /path/to/dify/docker
+./dify-restore.sh
 ```
 
-- 設定ファイルの反映 → `dify-sandbox-tshark` ビルド → データ復元 → 確認手順の表示
-- `--no-build` / `--no-import` / `--bundle FILE` / `--force-env` オプションあり（`--help`）
+`dify-restore.sh` がやること:
 
-以下は中身を手でやる場合。
+1. バージョン確認（`dify-api:1.16.0`）
+2. `.env` を `.env.example` から作成（標準値。**変更しない** — 下記理由）
+3. `dify-sandbox-tshark:0.2.15` をビルド（既にあればスキップ）
+4. `data/dify_bundle.tar.gz` を `dify-bundle.sh import` で復元
+   （stack down → `volumes/{db/data,app/storage,weaviate,plugin_daemon,sandbox}` 展開 → up）
+5. 確認手順を表示
 
-### 1. このリポジトリを配置
+オプション: `--bundle FILE` `--no-build` `--no-import` `--force-env` `--docker-dir DIR` `--help`
+
+完全オフラインなら移行元で `docker/dify-bundle.sh images` → 移行先で `docker/dify-bundle.sh load`、
+その上で `./dify-restore.sh --no-build`。
+
+### 2. 確認
 
 ```bash
-git clone -b main https://github.com/zen-1/memo.git dify-memo
-cd dify-memo
+cd docker && docker compose ps        # 全て up
 ```
 
-### 2. 設定ファイルを dify/docker/ へ反映
+1. Web UI にログイン（移行元のアカウントが引き継がれる）
+2. 設定 > モデルプロバイダー > Ollama の Base URL を確認・必要なら修正
+3. 「検証エージェント」を実行しナレッジ検索が retrieval できるか
+4. pcap を使う Code ノードがあれば tshark 動作も確認
 
-```bash
-DIFY_DOCKER=/path/to/dify/docker
+---
 
-cp config/docker-compose.override.yaml           "$DIFY_DOCKER"/
-cp config/sandbox-tshark/Dockerfile              "$DIFY_DOCKER"/sandbox-tshark/Dockerfile   # mkdir -p 先に
-cp config/ssrf_proxy/squid.conf.template         "$DIFY_DOCKER"/ssrf_proxy/
-cp config/volumes/sandbox/conf/config.yaml       "$DIFY_DOCKER"/volumes/sandbox/conf/
-cp config/volumes/sandbox/dependencies/python-requirements.txt \
-                                                 "$DIFY_DOCKER"/volumes/sandbox/dependencies/
-cp .env.template                                 "$DIFY_DOCKER"/.env
-cp dify-bundle.sh                                "$DIFY_DOCKER"/
-```
+## なぜ .env を変えてはいけないか
 
-> `.env` は Dify 標準の `.env.example` と同一。`SECRET_KEY`（空）や `DB_PASSWORD` 等の
-> デフォルト値は **移行元と一致させる必要がある**（DB内の暗号化認証情報と
-> `storage/privkeys` の復号に使われるため）。勝手に変えない。
-
-### 3. カスタム sandbox イメージをビルド
-
-```bash
-cd "$DIFY_DOCKER"
-docker build -t dify-sandbox-tshark:0.2.15 ./sandbox-tshark
-```
-
-（完全オフラインなら移行元で `./dify-bundle.sh images` → 移行先で `./dify-bundle.sh load`）
-
-### 4. データを復元
-
-```bash
-cd "$DIFY_DOCKER"
-./dify-bundle.sh import /path/to/dify-memo/data/dify_bundle_XXXX.tar.gz
-```
-
-`volumes/{db/data,app/storage,weaviate,plugin_daemon,sandbox}` を展開して `docker compose up -d`。
-
-### 5. 確認
-
-1. `docker compose ps` 全て up
-2. Web UI ログイン（初期アカウントは移行元のものが引き継がれる）
-3. 設定 > モデルプロバイダー で Ollama の Base URL を確認・必要なら修正
-4. 「検証エージェント」を開き、ナレッジ検索が retrieval できるか実行テスト
-5. pcap を使う Code ノードなら tshark が動くか確認
+Dify 標準の `.env.example` のまま運用している。`SECRET_KEY`（空）、`DB_PASSWORD`、
+`WEAVIATE_API_KEY` などのデフォルト値は **移行元と一致していないと**、DB 内の
+暗号化済み認証情報や `storage/privkeys` を復号できず、モデルプロバイダー等が壊れる。
+本番運用するなら移行後に全部ローテーションすること。
 
 ---
 
 ## バンドルの作り直し（移行元）
 
 ```bash
-cd /path/to/dify/docker
-./dify-bundle.sh export --lean data/dify_bundle_$(date +%Y%m%d).tar.gz
-# 一時的に docker compose down → up（数十秒のダウンタイム）
+cd /path/to/dify/docker        # 実運用中の docker/
+./dify-bundle.sh export --lean /path/to/dify-memo/data/dify_bundle.tar.gz
 ```
 
-- `--lean`: 過去会話の添付 `*.pcap`（約260MB）を除外。アプリ・ナレッジ・ベクトルは維持。→ 20〜30MB
-- 外すと過去会話のファイルも含む（約250MB）
-
----
+- `--lean`: 過去会話の添付 `*.pcap`（約260MB）を除外。アプリ・ナレッジ・ベクトルは維持 → ~20MB
+- 一時的に `docker compose down → up`（数十秒のダウンタイム）
 
 ## 注意
 
-- `data/*.tar.gz` には DB がまるごと入る（ナレッジ本文、会話ログ、暗号化された認証情報）。
-  リポジトリは **private 必須**。
-- 実 `.env` はコミットしない（`.gitignore` 済み）。標準値のままなら `.env.template` で足りる。
+- `data/*.tar.gz` は DB まるごと（ナレッジ本文・会話ログ・暗号化認証情報）。**private 必須**。
+- 実 `.env` はコミットしない（`.gitignore` 済み）。

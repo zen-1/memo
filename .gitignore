@@ -1,7 +1,8 @@
-# 実際の .env は置かない（.env.template を使う）
+# 実 .env は置かない（docker/.env.example から生成する）
 .env
 docker/.env
+docker/volumes/
 
-# イメージの save は巨大なので commit しない（GitHub Releases か別手段で）
+# イメージ save は巨大なので commit しない
 dify_images_*.tar.gz
-data/dify_images_*.tar.gz
+**/dify_images_*.tar.gz
