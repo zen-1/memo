@@ -26,10 +26,25 @@
 - Dify 本体 checkout: `git clone https://github.com/langgenius/dify && cd dify && git checkout 1.16.0`（`docker/` 一式が要る）
 - Ollama が動いていて `bge-m3` が pull 済み、移行先から到達可能なこと
 
+### かんたん手順（推奨）
+
+`dify-restore.sh` が 2〜4 を一括でやります。
+
+```bash
+git clone -b main https://github.com/zen-1/memo.git dify-memo
+cd dify-memo
+./dify-restore.sh --dify-docker /path/to/dify/docker
+```
+
+- 設定ファイルの反映 → `dify-sandbox-tshark` ビルド → データ復元 → 確認手順の表示
+- `--no-build` / `--no-import` / `--bundle FILE` / `--force-env` オプションあり（`--help`）
+
+以下は中身を手でやる場合。
+
 ### 1. このリポジトリを配置
 
 ```bash
-git clone https://github.com/zen-1/memo.git dify-memo
+git clone -b main https://github.com/zen-1/memo.git dify-memo
 cd dify-memo
 ```
 
