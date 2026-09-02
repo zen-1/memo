@@ -1,0 +1,27 @@
+app:
+  port: 8194
+  debug: True
+  key: dify-sandbox
+max_workers: 4
+max_requests: 50
+worker_timeout: 5
+enable_network: True # please make sure there is no network risk in your environment
+allowed_syscalls: # please leave it empty if you have no idea how seccomp works
+# Extra host paths mirrored (hardlinked) into the Python chroot jail, needed so
+# subprocess-exec'd tshark can find its binary/shared libs/data files there.
+python_lib_path:
+  - /usr/bin/tshark
+  - /usr/share/wireshark
+  - /usr/lib/x86_64-linux-gnu/wireshark
+  - /lib/x86_64-linux-gnu
+  - /lib64/ld-linux-x86-64.so.2
+  - /etc/nsswitch.conf
+  - /etc/hosts
+  - /etc/resolv.conf
+  - /etc/localtime
+  - /etc/timezone
+  - /usr/share/zoneinfo
+proxy:
+  socks5: ''
+  http: ''
+  https: ''
